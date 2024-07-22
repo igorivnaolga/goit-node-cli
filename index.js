@@ -16,7 +16,6 @@ program.parse();
 
 const options = program.opts();
 
-// TODO: рефакторити
 async function invokeAction({ action, id, ...data }) {
   switch (action) {
     case 'list':
